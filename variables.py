@@ -1,9 +1,8 @@
-#!/usr/bin/env python
-# encoding: utf-8
+
 
 ###############################
 # Exercices sur les variables #
-###############################
+
 
 
 # Savoirs-faires :
@@ -23,10 +22,11 @@
 #       créer une variable et lui affecter une valeur
 
 # ... Écrivez votre code ici ...
+a=12
 
 
 
-print(ma_variable)
+print(a)
 
 
 
@@ -40,7 +40,7 @@ print(ma_variable)
 # ... Écrivez votre code ici ...
 
 texte = "Salut !"
-
+print(texte)
 
 
 # Exercice 1.3
@@ -54,10 +54,10 @@ texte = "Salut !"
 # ... Écrivez votre code ici ...
 
 nombre = 2 # ne pas toucher à cette ligne !
+b=3
 
 
-
-print(nombre)
+print(a+b)
 
 
 # Exercice 1.4
@@ -72,8 +72,9 @@ print(nombre)
 
 # ... Écrivez votre code ici ...
 
-
-
-
+nombre_de_clients=0 
+nombre_de_clients=nombre_de_clients+2
+nombre_de_clients=nombre_de_clients-1
+print(nombre_de_clients)
 
 
